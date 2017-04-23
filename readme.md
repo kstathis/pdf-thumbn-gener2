@@ -1,4 +1,4 @@
-# PDF thumbnail generator (Windows batch file version)
+# PDF 1st page thumbnail generator
 
 ## Synopsis
 
@@ -8,6 +8,10 @@ A Windows batch file that uses imagemagick to generate thumbnails of the first p
 
 We have a folder with PDFs. The batch file will generate a JPG file of the first page of every PDF, recursively, including any subfolders with PDFs. The filename of the JPG will be the same with the PDF.
 
+## Type
+
+Windows batch file
+
 ## Prerequisites
 
 * [Imagemagick](http://www.imagemagick.org/script/binary-releases.php#windows)
@@ -16,6 +20,7 @@ We have a folder with PDFs. The batch file will generate a JPG file of the first
 ## Usage
 
 Place the .bat file in folder root and run it.
+
 ## Notes
 
 * The filenames and folder names can contain spaces, greek letters and special characters. They will be processed with no problem.
